@@ -85,7 +85,7 @@ app.get("/contact", (req, res) => {
     res.render("form.ejs", params)
 })
 
-app.post("/Contact", (req, res) => {
+app.post("/contact", (req, res) => {
     var myData = new contact(req.body);
     myData.save().then(() => {
             // res.send("This item is saved to the database")
