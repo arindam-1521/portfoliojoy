@@ -5,200 +5,193 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Sambat Dark - Work</title>
+    <title>My Works</title>
     <link rel="stylesheet" href="/static/css/plugin.css">
     <link rel="stylesheet" href="/static/css/main.css">
     <link rel="stylesheet" href="/static/css/responsive.css">
+    <link rel="icon" type="image/x-svg" href="/static/img/logoh.svg">
 </head>
 
 <body>
 
     <!-- Start Preload -->
-    <div class="preloader">
-    </div>
-    <div class="block-1"></div>
-    <div class="block-2"></div>
-    <div class="logo-load">
-        <img src="/static/img/logo.svg" alt="">
-    </div>
-    <div class="logo-load spinning"></div>
-    <div class="over-all"></div>
-    <!-- End Preload -->
+    <%- include("preloader") -%>
+        <!-- End Preload -->
 
-    <!-- Start Header -->
-    <%- include("header")  -%>
-        <!-- End Header -->
+        <!-- Start Header -->
+        <%- include("header")  -%>
+            <!-- End Header -->
 
 
-        <!-- Start Content -->
-        <div id="spiral">
+            <!-- Start Content -->
+            <div id="spiral">
 
-            <!-- Header -->
-            <div class="scrolls">
-                <img draggable="false" src="/static/img/sroll.svg" alt="scroll">
+                <!-- Header -->
+                <div class="scrolls">
+                    <img draggable="false" src="/static/img/sroll.svg" alt="scroll">
+                </div>
+                <div class="main-head">
+                    <div id="headmove">
+                        <div data-depth="0.2">
+                            <div class="bg-work"></div>
+                        </div>
+                        <div data-depth="0.3">
+                            <div class="bg-work-2"></div>
+                        </div>
+                    </div>
+                    <div class="heading-text">
+                        <div class="heading-text-front">
+                            <h1 class="title">W O R K.</h1>
+                        </div>
+                        <div class="heading-text-back">
+                            <h1 class="title">W O R K.</h1>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Portfolio -->
+
+                <section class="folio-content">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="main-title text-center">
+
+                                    <h2>Projects from the <span>Studio</span></h2>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="folio-item">
+
+                                    <div class="img-folio cursorExplore">
+                                        <a class="load-spiral" href="work-detail-2.html">
+                                            <img class="img-fluid" src="/static/img/port/2.jpg" draggable="false" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="text-folio text-center">
+                                        <h2 class="text-1">OLDMAN</h2>
+                                        <h2 class="text-2">OLDMAN</h2>
+                                    </div>
+                                </div>
+                                <div class="folio-item">
+
+                                    <div class="img-folio cursorExplore">
+                                        <a class="load-spiral" href="work-detail.html">
+                                            <img class="img-fluid" src="/static/img/port/1.jpg" draggable="false" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="text-folio text-center">
+                                        <h2 class="text-1">SMITHY</h2>
+                                        <h2 class="text-2">SMITHY</h2>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="folio-item">
+
+                                    <div class="img-folio cursorExplore">
+                                        <a class="load-spiral" href="work-detail.html">
+                                            <img class="img-fluid" src="/static/img/port/3.jpg" draggable="false" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="text-folio text-center">
+                                        <h2 class="text-1">DETECTIVE</h2>
+                                        <h2 class="text-2">DETECTIVE</h2>
+                                    </div>
+                                </div>
+
+                                <div class="folio-item">
+
+                                    <div class="img-folio cursorExplore">
+                                        <a class="load-spiral" href="work-detail-2.html">
+                                            <img class="img-fluid" src="/static/img/port/4.jpg" draggable="false" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="text-folio text-center">
+                                        <h2 class="text-1">SHANGHAI</h2>
+                                        <h2 class="text-2">SHANGHAI</h2>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="folio-item">
+
+                                    <div class="img-folio cursorExplore">
+                                        <a class="load-spiral" href="work-detail-2.html">
+                                            <img class="img-fluid" src="/static/img/port/2.jpg" draggable="false" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="text-folio text-center">
+                                        <h2 class="text-1">OLDMAN</h2>
+                                        <h2 class="text-2">OLDMAN</h2>
+                                    </div>
+                                </div>
+                                <div class="folio-item">
+
+                                    <div class="img-folio cursorExplore">
+                                        <a class="load-spiral" href="work-detail.html">
+                                            <img class="img-fluid" src="/static/img/port/1.jpg" draggable="false" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="text-folio text-center">
+                                        <h2 class="text-1">SMITHY</h2>
+                                        <h2 class="text-2">SMITHY</h2>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="folio-item">
+
+                                    <div class="img-folio cursorExplore">
+                                        <a class="load-spiral" href="work-detail.html">
+                                            <img class="img-fluid" src="/static/img/port/3.jpg" draggable="false" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="text-folio text-center">
+                                        <h2 class="text-1">DETECTIVE</h2>
+                                        <h2 class="text-2">DETECTIVE</h2>
+                                    </div>
+                                </div>
+
+                                <div class="folio-item">
+
+                                    <div class="img-folio cursorExplore">
+                                        <a class="load-spiral" href="work-detail-2.html">
+                                            <img class="img-fluid" src="/static/img/port/4.jpg" draggable="false" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="text-folio text-center">
+                                        <h2 class="text-1">SHANGHAI</h2>
+                                        <h2 class="text-2">SHANGHAI</h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                </section>
+
+
+                <!-- Footer -->
+                <%- include("footer")  -%>
+
             </div>
-            <div class="main-head">
-                <div id="headmove">
-                    <div data-depth="0.2">
-                        <div class="bg-work"></div>
-                    </div>
-                    <div data-depth="0.3">
-                        <div class="bg-work-2"></div>
-                    </div>
-                </div>
-                <div class="heading-text">
-                    <div class="heading-text-front">
-                        <h1 class="title">W O R K.</h1>
-                    </div>
-                    <div class="heading-text-back">
-                        <h1 class="title">W O R K.</h1>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Portfolio -->
-
-            <section class="folio-content">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="main-title text-center">
-
-                                <h2>Projects from the <span>Studio</span></h2>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="folio-item">
-
-                                <div class="img-folio cursorExplore">
-                                    <a class="load-spiral" href="work-detail-2.html">
-                                        <img class="img-fluid" src="/static/img/port/2.jpg" draggable="false" alt="">
-                                    </a>
-                                </div>
-                                <div class="text-folio text-center">
-                                    <h2 class="text-1">OLDMAN</h2>
-                                    <h2 class="text-2">OLDMAN</h2>
-                                </div>
-                            </div>
-                            <div class="folio-item">
-
-                                <div class="img-folio cursorExplore">
-                                    <a class="load-spiral" href="work-detail.html">
-                                        <img class="img-fluid" src="/static/img/port/1.jpg" draggable="false" alt="">
-                                    </a>
-                                </div>
-                                <div class="text-folio text-center">
-                                    <h2 class="text-1">SMITHY</h2>
-                                    <h2 class="text-2">SMITHY</h2>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-md-6">
-                            <div class="folio-item">
-
-                                <div class="img-folio cursorExplore">
-                                    <a class="load-spiral" href="work-detail.html">
-                                        <img class="img-fluid" src="/static/img/port/3.jpg" draggable="false" alt="">
-                                    </a>
-                                </div>
-                                <div class="text-folio text-center">
-                                    <h2 class="text-1">DETECTIVE</h2>
-                                    <h2 class="text-2">DETECTIVE</h2>
-                                </div>
-                            </div>
-
-                            <div class="folio-item">
-
-                                <div class="img-folio cursorExplore">
-                                    <a class="load-spiral" href="work-detail-2.html">
-                                        <img class="img-fluid" src="/static/img/port/4.jpg" draggable="false" alt="">
-                                    </a>
-                                </div>
-                                <div class="text-folio text-center">
-                                    <h2 class="text-1">SHANGHAI</h2>
-                                    <h2 class="text-2">SHANGHAI</h2>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="folio-item">
-
-                                <div class="img-folio cursorExplore">
-                                    <a class="load-spiral" href="work-detail-2.html">
-                                        <img class="img-fluid" src="/static/img/port/2.jpg" draggable="false" alt="">
-                                    </a>
-                                </div>
-                                <div class="text-folio text-center">
-                                    <h2 class="text-1">OLDMAN</h2>
-                                    <h2 class="text-2">OLDMAN</h2>
-                                </div>
-                            </div>
-                            <div class="folio-item">
-
-                                <div class="img-folio cursorExplore">
-                                    <a class="load-spiral" href="work-detail.html">
-                                        <img class="img-fluid" src="/static/img/port/1.jpg" draggable="false" alt="">
-                                    </a>
-                                </div>
-                                <div class="text-folio text-center">
-                                    <h2 class="text-1">SMITHY</h2>
-                                    <h2 class="text-2">SMITHY</h2>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-md-6">
-                            <div class="folio-item">
-
-                                <div class="img-folio cursorExplore">
-                                    <a class="load-spiral" href="work-detail.html">
-                                        <img class="img-fluid" src="/static/img/port/3.jpg" draggable="false" alt="">
-                                    </a>
-                                </div>
-                                <div class="text-folio text-center">
-                                    <h2 class="text-1">DETECTIVE</h2>
-                                    <h2 class="text-2">DETECTIVE</h2>
-                                </div>
-                            </div>
-
-                            <div class="folio-item">
-
-                                <div class="img-folio cursorExplore">
-                                    <a class="load-spiral" href="work-detail-2.html">
-                                        <img class="img-fluid" src="/static/img/port/4.jpg" draggable="false" alt="">
-                                    </a>
-                                </div>
-                                <div class="text-folio text-center">
-                                    <h2 class="text-1">SHANGHAI</h2>
-                                    <h2 class="text-2">SHANGHAI</h2>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+            <!-- End Content -->
 
 
+            <!-- Toggle menu -->
+            <%- include('menu')  -%>
 
-                </div>
-            </section>
+                <!-- Cursor -->
+                <div class="cursor1" id="cursor1"></div>
+                <div class="cursor" id="cursor"></div>
 
-
-            <!-- Footer -->
-            <%- include("footer")  -%>
-
-        </div>
-        <!-- End Content -->
-
-
-        <!-- Toggle menu -->
-        <%- include('menu')  -%>
-
-            <!-- Cursor -->
-            <div class="cursor1" id="cursor1"></div>
-            <div class="cursor" id="cursor"></div>
-
-            <script src="/static/js/plugin.js"></script>
-            <script src="/static/js/main.js"></script>
+                <script src="/static/js/plugin.js"></script>
+                <script src="/static/js/main.js"></script>
 </body>
 
 </html>
