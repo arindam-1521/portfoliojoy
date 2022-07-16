@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sambat Dark - Home</title>
+    <link rel="stylesheet" href=" /static/css/plugin.css">
+    <link rel="stylesheet" href=" /static/css/main.css">
+    <link rel="stylesheet" href=" /static/css/responsive.css">
+</head>
+
+<body>
+
+    <!-- Start Preload -->
+    <div class="preloader">
+    </div>
+    <div class="block-1"></div>
+    <div class="block-2"></div>
+    <div class="logo-load">
+        <img src=" /static/img/logo.svg" alt="">
+    </div>
+    <div class="logo-load spinning"></div>
+    <div class="over-all"></div>
+    <!-- End Preload -->
+
+    <!-- Start Header -->
+    <%- include("header") -%>
+        <!-- End Header -->
+
+
+        <!-- Start Content -->
+        <div id="spiral">
+            <div id="headmove"></div>
+            <div class="full-page">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+
+                        <!-- slide-1 -->
+                        <div class="swiper-slide centered">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-8 offset-md-2">
+                                        <div class="img-slide">
+                                            <a href="work-detail-2.html" class="load-spiral cursorExplore">
+                                                <img class="img-fluid" src=" /static/img/slider/1.jpg" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-12 text-center">
+                                        <div class="text-head-slide">
+                                            <div class="text-slide">
+                                                <h2 class="text-1">OLDMAN</h2>
+                                                <h2 class="text-2">OLDMAN</h2>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <!-- slide-2 -->
+                        <div class="swiper-slide centered">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-8 offset-md-2">
+                                        <div class="img-slide">
+                                            <a href="work-detail.html" class="load-spiral cursorExplore">
+                                                <img class="img-fluid" src=" /static/img/slider/2.jpg" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-12 text-center">
+                                        <div class="text-head-slide">
+                                            <div class="text-slide">
+                                                <h2 class="text-1">SMITHY</h2>
+                                                <h2 class="text-2">SMITHY</h2>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- slide-2 -->
+                        <div class="swiper-slide centered">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-8 offset-md-2">
+                                        <div class="img-slide">
+                                            <a href="work-detail.html" class="load-spiral cursorExplore">
+                                                <img class="img-fluid" src=" /static/img/slider/3.jpg" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-12 text-center">
+                                        <div class="text-head-slide">
+                                            <div class="text-slide">
+                                                <h2 class="text-1">DETECTIVE</h2>
+                                                <h2 class="text-2">DETECTIVE</h2>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <!-- slide-2 -->
+                        <div class="swiper-slide centered">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-8 offset-md-2">
+                                        <div class="img-slide">
+                                            <a href="work-detail.html" class="load-spiral cursorExplore">
+                                                <img class="img-fluid" src=" /static/img/slider/4.jpg" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-12 text-center">
+                                        <div class="text-head-slide">
+                                            <div class="text-slide">
+                                                <h2 class="text-1">SHADOW</h2>
+                                                <h2 class="text-2">SHADOW</h2>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+            <%- include("footer") -%>
+        </div>
+        <!-- End Content -->
+
+
+        <!-- Toggle menu -->
+        <%- include("menu") -%>
+
+            <!-- Cursor -->
+            <div class="cursor1" id="cursor1"></div>
+            <div class="cursor" id="cursor"></div>
+
+            <script src=" /static/js/plugin.js"></script>
+            <script src=" /static/js/main.js"></script>
+</body>
+
+</html>

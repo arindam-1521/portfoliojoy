@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sambat Dark - Blog</title>
+    <link rel="stylesheet" href="/static/css/plugin.css">
+    <link rel="stylesheet" href="/static/css/main.css">
+    <link rel="stylesheet" href="/static/css/responsive.css">
+</head>
+
+<body>
+
+    <!-- Preload -->
+    <div class="preloader">
+    </div>
+    <div class="block-1"></div>
+    <div class="block-2"></div>
+    <div class="logo-load">
+        <img src="/static/img/logo.svg" alt="">
+    </div>
+
+    <div class="over-all"></div>
+    <!-- Start Header -->
+    <%- include("header") -%>
+        <!-- End Header -->
+
+
+        <!-- Start Content -->
+        <div id="spiral">
+
+
+
+            <div id="headmove">
+
+            </div>
+
+            <div class="blog between mt-200">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="main-title text-center">
+
+                                <h2>Our Recent <span>Article </span></h2>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row mt-10">
+
+                        <div class="col-md-6 mt-40">
+                            <div class="blog-item">
+                                <a class="cursorExplore load-spiral" href="/blog-detail">
+                                    <div class="blog-img">
+                                        <img class="img-fluid" src="/static/img/blog/1.jpg" alt="">
+                                    </div>
+                                    <div class="blog-text">
+                                        <h3>Designing web interfaces in position absolute</h3>
+                                        <p>Frustrations, reflections and ideas on how to optimize our design and development processes through web UI tools.</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 mt-40">
+                            <div class="blog-item">
+                                <a class="cursorExplore load-spiral" href="/blog-detail">
+                                    <div class="blog-img">
+                                        <img class="img-fluid" src="/static/img/blog/2.jpg" alt="">
+                                    </div>
+                                    <div class="blog-text">
+                                        <h3>Designing web interfaces in position absolute</h3>
+                                        <p>Frustrations, reflections and ideas on how to optimize our design and development processes through web UI tools.</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 mt-40">
+                            <div class="blog-item">
+                                <a class="cursorExplore load-spiral" href="/blog-detail">
+                                    <div class="blog-img">
+                                        <img class="img-fluid" src="/static/img/blog/3.jpg" alt="">
+                                    </div>
+                                    <div class="blog-text">
+                                        <h3>Designing web interfaces in position absolute</h3>
+                                        <p>Frustrations, reflections and ideas on how to optimize our design and development processes through web UI tools.</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 mt-40">
+                            <div class="blog-item">
+                                <a class="cursorExplore load-spiral" href="/blog-detail">
+                                    <div class="blog-img">
+                                        <img class="img-fluid" src="/static/img/blog/4.jpg" alt="">
+                                    </div>
+                                    <div class="blog-text">
+                                        <h3>Designing web interfaces in position absolute</h3>
+                                        <p>Frustrations, reflections and ideas on how to optimize our design and development processes through web UI tools.</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+            </div>
+
+            <!-- Footer -->
+            <%- include("footer") -%>
+
+        </div>
+        <!-- End Content -->
+        <%- include('menu') -%>
+
+            <!-- Cursor -->
+            <div class="cursor1" id="cursor1"></div>
+            <div class="cursor" id="cursor"></div>
+
+            <script src="/static/js/plugin.js"></script>
+            <script src="/static/js/main.js"></script>
+</body>
+
+</html>

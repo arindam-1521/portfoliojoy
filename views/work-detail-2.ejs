@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sambat Dark - Detail</title>
+    <link rel="stylesheet" href=" /static/css/plugin.css">
+    <link rel="stylesheet" href=" /static/css/main.css">
+    <link rel="stylesheet" href=" /static/css/responsive.css">
+</head>
+
+<body>
+
+    <!-- Start Preload -->
+    <div class="preloader">
+    </div>
+    <div class="block-1"></div>
+    <div class="block-2"></div>
+    <div class="logo-load">
+        <img src=" /static/img/logo.svg" alt="">
+    </div>
+    <div class="logo-load spinning"></div>
+    <div class="over-all"></div>
+    <!-- End Preload -->
+
+
+    <!-- Start Header -->
+    <%- include('header') -%>
+        <!-- End Header -->
+
+
+        <!-- Start Content -->
+        <div id="spiral">
+
+            <!-- Header -->
+            <div class="scrolls">
+                <img draggable="false" src=" /static/img/sroll.svg" alt="scroll">
+            </div>
+            <div class="main-head luxy-el" data-speed-y="15" data-offset="0">
+                <div id="headmove">
+                    <div data-depth="0.4">
+                        <div class="bg-detail-work-2"></div>
+                    </div>
+                </div>
+
+                <div class="heading-text">
+                    <div class="heading-text-front">
+                        <h1 class="title">OLDMAN NORMAN</h1>
+                    </div>
+                    <div class="heading-text-back">
+                        <h1 class="title">OLDMAN NORMAN</h1>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Work Content -->
+            <section class="detail-work bg-darks">
+                <div class="container">
+                    <div class="row ">
+                        <div class="col-md-4 mt-30">
+                            <div class="about-work text-center">
+                                <h3>Client</h3>
+                                <p>Texas, USA</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mt-30">
+                            <div class="about-work text-center">
+                                <h3>Year</h3>
+                                <p>2019</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mt-30">
+                            <div class="about-work text-center">
+                                <h3>Service</h3>
+                                <p>Web Design</p>
+                                <p>UI/UX</p>
+                                <p>Photography</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="row mt-20">
+                        <div class="col-md-12 mt-30">
+
+                            <!-- next -->
+                            <div class="right-over-next cursorNext"> </div>
+                            <!-- prev -->
+                            <div class="right-over-prev cursorPrev"> </div>
+
+                            <!-- work-slider -->
+                            <div class="work-slider">
+                                <div class="owl-carousel owl-theme">
+                                    <div class="img-item">
+                                        <img src=" /static/img/detail-work/2/1.jpg" class="img-fluid" alt="">
+                                    </div>
+                                    <div class="img-item">
+                                        <img src=" /static/img/detail-work/2/2.jpg" class="img-fluid" alt="">
+                                    </div>
+                                    <div class="img-item">
+                                        <img src=" /static/img/detail-work/2/3.jpg" class="img-fluid" alt="">
+                                    </div>
+                                    <div class="img-item">
+                                        <img src=" /static/img/detail-work/2/4.jpg" class="img-fluid" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row about-work mt-50">
+                        <div class="col-md-3">
+                            <h3>Detail</h3>
+                        </div>
+                        <div class="col-md-8">
+                            <p> managed the brand strategy, UX, web design and motion. The result is ultimate online storytelling experience that create an emotional connection between the user, the brand and the product, improving the value of the product
+                                and ultimately, sales.</p>
+                            <div class="mt-10"></div>
+                            <a class="hover-target" href="https://www.behance.net/gallery/81535767/Smithy" target="_blank">see detail</a>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-12">
+                            <a href="/work-detail" class="next-project centered text-center load-spiral">
+                                <div class="col-md-12">
+                                    <p>Next projects</p>
+                                    <h3>SMITHY</h3>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <!-- Footer -->
+            <%- include("footer") -%>
+
+
+        </div>
+        <!-- End Content -->
+
+        <!-- Toggle menu -->
+        <%- include("menu") -%>
+
+            <!-- Cursor -->
+            <div class="cursor1" id="cursor1"></div>
+            <div class="cursor" id="cursor"></div>
+
+            <script src=" /static/js/plugin.js"></script>
+            <script src=" /static/js/main.js"></script>
+</body>
+
+</html>
